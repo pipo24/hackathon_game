@@ -2,30 +2,30 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Tinderable from 'react-tinderable';
+import Tinderable from './lib/tinderable.js';
 import './style.css';
 
 var data = [
   {
-    title: 'A wonderful day',
+    title: 'Sell your start up to Google?',
     text: '—— - ——— - - - ——— ———— - — ——— —— - ————— - - ———— —— - ——— - - - ——— ———— - — ——— —— -',
     image: '',
     id: '1'
   },
   {
-    title: 'My amazing journey',
+    title: 'Fire the developer?',
     text: ' - — ——— —— - ————— - - ———— —— - ——— - - - ——— ———— - — ——— —— - ————— - - ——— - - - ——— ———— ',
     image: '',
     id: '2'
   },
   {
-    title: 'Three recipes without cocoa',
+    title: 'Do you find an office',
     text: ' - — ——— —— - ————— - - ———— —— - ——— - - - ——— ———— - — ——— —— - ————— - - ——— - - - ———',
     image: '',
     id: '3'
   },
   {
-    title: 'Generic clickbait title',
+    title: 'Do you hire a developer?',
     text: ' —— ———— - — ——— —— - ————— - - ———— —— - ——— - - - ——— ———— - — ——— —— - ————— - - ———— —— - ——— - - - ——— ———— - — ——— —— - ————— - - ———— - ——— ',
     image: '',
     id: '4'
